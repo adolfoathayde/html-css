@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste tamanho img</title>
+</head>
+<body>
+    <h1>Vamos praticar</h1>
+    <p>Ploft Pluft Pliu ... dependendo do tamanho da page a imagem mudou. e para a proxima aula teremos praticas de rima.</p>
+
+    <picture>
+
+        <source media="(max-width: 730px)" srcset="imagens/imagem-p.png" type="image/png">
+        <source media="(max-width: 1030px)" srcset="imagens/imagem-m.png" type="image/png">
+        <img src="imagens/imagem-g.png" alt="imagem flexivel">
+    </picture>
+    
+</body>
+</html>
